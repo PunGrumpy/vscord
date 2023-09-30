@@ -109,6 +109,10 @@
             "image": "heex"
         },
         {
+            "language": "helm",
+            "image": "helm"
+        },
+        {
             "language": "html",
             "image": "html"
         },
@@ -1526,6 +1530,15 @@
         },
         ".xaml": {
             "image": "xaml"
+        },
+        "/^Chart\\.ya?ml$/i": {
+            "image": "helm"
+        },
+        "/^Chart\\.lock$/i": {
+            "image": "helm"
+        },
+        ".helmignore": {
+            "image": "helm"
         },
         "/\\.ya?ml$/i": {
             "image": "yaml"
